@@ -10,7 +10,7 @@ on:
     branches: [ "main" ]
   schedule:
     # IMPORTANT: Set cron job in UTC timezone
-    - cron:  '0/3 * * * *'
+    - cron:  '0/4 * * * *'
 
 permissions:
   contents: read
